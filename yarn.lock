@@ -5525,10 +5525,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-unistyles@^2.8.4:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/react-native-unistyles/-/react-native-unistyles-2.8.4.tgz#9a7a16d567be752712f4b6e1bd0ced717db76ef4"
-  integrity sha512-um2wfE38aacar9PIoCWeSy1J9vSAvR6Gd3+Lftvwtm7E8s10d/saOEI7G15jQ5MKHvagLad0lWJ95HSnReNADA==
+react-native-unistyles@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/react-native-unistyles/-/react-native-unistyles-2.9.0.tgz#28c3527f9e2b44c91463cb38950f27fdd6875d7b"
+  integrity sha512-YpnKPQfUbr4ku/z9cjv/2+oSBOXu2lD0Uekw/dlQtsZKYSCdDcMAlThqpj7RcN+R2JocoAMcguMVmYHXyI+ung==
 
 react-native@0.74.1:
   version "0.74.1"

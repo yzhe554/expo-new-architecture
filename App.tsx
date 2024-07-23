@@ -18,6 +18,9 @@ const stylesheet = createStyleSheet((theme, rt) => {
       borderWidth: 1,
       padding: 10,
     },
+    label: {
+      fontSize: 20,
+    },
     container: {
       flex: 1,
       backgroundColor: '#fff',
@@ -29,15 +32,23 @@ const stylesheet = createStyleSheet((theme, rt) => {
 
 export default function App() {
   const { styles } = useStyles(stylesheet)
-  console.log(`UnistylesRuntime.contentSizeCategory: ${UnistylesRuntime.contentSizeCategory}`)
-  console.log(`UnistylesRuntime.fontScale: ${UnistylesRuntime.fontScale}`)
+  // console.log(`UnistylesRuntime.contentSizeCategory: ${UnistylesRuntime.contentSizeCategory}`)
+  // console.log(`UnistylesRuntime.fontScale: ${UnistylesRuntime.fontScale}`)
   return (
-    <View style={styles.container}>
-       <TextInput
+    <View style={{
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    }}>
+      <Text style={{fontSize: 24}}>RN 24 Label Testing!!!</Text>
+      <Text style={{fontSize: 18}}>RN  18 Label Testing!!!</Text>
+      <Text style={{fontSize: 16}}>RN 16 Label Testing!!!</Text>
+       {/* <TextInput
         style={styles.input}
         // onChangeText={onChangeText}
         // value={text}
-      />
+      /> */}
 
       < StatusBar style="auto" />
     </View>
